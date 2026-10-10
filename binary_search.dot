@@ -1,0 +1,12 @@
+digraph {
+    node [shape=box fontname="Courier" fontsize="10"]
+    0 [label="binary_search([1, 3, 5, 7, 9, 11, 13, 15], 14)"]
+    1 [label="binary_search([1, 3, 5, 7, 9, 11, 13, 15], 14, 4, 7)"]
+    2 [label="binary_search([1, 3, 5, 7, 9, 11, 13, 15], 14, 6, 7)"]
+    3 [label="binary_search([1, 3, 5, 7, 9, 11, 13, 15], 14, 7, 7)"]
+    4 [label="binary_search([1, 3, 5, 7, 9, 11, 13, 15], 14, 7, 6)"]
+    0 -> 1
+    1 -> 2
+    2 -> 3
+    3 -> 4
+}

@@ -1,0 +1,4 @@
+digraph {
+    node [shape=box fontname="Courier" fontsize="10"]
+    0 [label="quick_select([5, 2, 8, 1, 9, 3, 7, 4, 6], 4)"]
+}
